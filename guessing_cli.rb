@@ -10,8 +10,5 @@ def run_guessing_game
     else 
       puts "The computer guessed #{correct_num}"
     end
-    end
-    end
-  end
 end
-end
+
