@@ -7,8 +7,10 @@ def run_guessing_game
       puts "Goodbye!"
     elsif input.to_i.between?(1, 6) == correct_num
       puts "You guessed the correct number"
-   else 
+    else 
       puts "The computer guessed #{correct_num}"
-   end
+    end
+    end
+    end
   end
 end
